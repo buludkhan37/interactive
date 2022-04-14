@@ -1,0 +1,46 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
+
+body {
+    /* width: auto;
+    height: auto; */
+    font-family: 'Roboto', sans-serif;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    transition: all .25s;
+    /* background: url("https://source.unsplash.com/1920x1080/?nature")
+    center no-repeat; */
+    background: url("zima.jpg") center no-repeat;
+    color: white;
+    font-size: 30px;
+}
+
+div {
+    text-align: center;
+}
+
+button {
+    border: 2px solid white;
+    padding: 15px 20px;
+    border-radius: 20px;
+    background: white;
+    cursor: pointer;
+    outline: none;
+    color: black;
+    font-size: 20px;
+}
+
+h1, h3 {
+    animation: down 1s;
+}
+
+@keyframes down {
+    from {
+        transform: translateY(-50px);
+    }
+
+    to {
+        transform: translateY(0);
+    }
+}
